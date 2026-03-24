@@ -29,9 +29,13 @@ just verify                     # Validate commits + build
 
 ## Structure
 
-- `docs/epics/` — epic descriptions (one file per cross-repo initiative)
+- `docs/initiatives/` — initiative framing documents (objective, goals, roadmap)
 - `docs/records/` — ADRs (`adr-NNN-topic.md` format)
 - `project.yaml` — project manifest
+
+Epics are tracked as GitHub issues with the `epic` label — no corresponding
+markdown files. Initiatives are the level above epics and deserve a framing
+document.
 
 ## Workflow
 
@@ -50,10 +54,12 @@ severity/effort/priority, and review flow.
 
 ## Conventions
 
-- **Epics.** One markdown file per epic in `docs/epics/`. File name matches the
-  epic issue number: `epic-NNN-title.md`. Include scope, goals, affected repos,
-  and acceptance criteria.
+- **Initiatives.** One markdown file per initiative in `docs/initiatives/`.
+  Include objective, goals, roadmap (epics and milestones), and affected repos.
+- **Epics.** Tracked as GitHub issues — no markdown files. Use the `epic` issue
+  template. Reference the parent initiative in the issue body.
 - **ADRs.** Follow the `adr-NNN-topic.md` format with Status/Date/Scope metadata
   and Context/Decision/Alternatives/Consequences sections.
 - **Scopes.** Conventional commit scopes: `repo` (project meta), `ci`
-  (workflows), `epic` (epic documents), `adr` (architecture decisions).
+  (workflows), `initiative` (initiative documents), `adr` (architecture
+  decisions).

@@ -6,10 +6,15 @@
 DriftSys cross-cutting planning — epics, architecture decisions, and program
 management.
 
+## Initiatives
+
+High-level initiatives are framed in [docs/initiatives/](docs/initiatives/) with
+objective, goals, and roadmap.
+
 ## Epics
 
-Cross-repo initiatives are tracked as GitHub issues with the `epic` label. Epic
-descriptions live in [docs/epics/](docs/epics/).
+Cross-cutting epics are tracked as GitHub issues with the `epic` label. Each
+epic references its parent initiative.
 
 ## Architecture decisions
 

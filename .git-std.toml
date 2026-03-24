@@ -1,6 +1,6 @@
 scheme = "semver"
 strict = true
-scopes = ["repo", "ci", "epic", "adr", "deps"]
+scopes = ["repo", "ci", "initiative", "adr", "deps"]
 
 [versioning]
 tag_prefix = "v"
