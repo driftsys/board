@@ -6,6 +6,13 @@
 DriftSys cross-cutting planning — epics, architecture decisions, and program
 management.
 
+## Process
+
+The canonical development workflow, issue hierarchy, severity/effort/priority
+matrix, and issue rules for all DriftSys repositories live in
+[PROCESS.md](PROCESS.md). Individual repos link here rather than maintaining
+their own copy.
+
 ## Initiatives
 
 High-level initiatives are framed in [docs/initiatives/](docs/initiatives/) with

@@ -1,7 +1,8 @@
 # Process
 
-This document describes the development workflow and planning model used across
-driftsys repositories. For the full process specification, see [fast-track].
+This is the canonical process model for all DriftSys repositories. Individual
+repos should link here rather than maintaining their own copy. For the full
+process specification, see [fast-track].
 
 ## Development workflow
 
@@ -75,12 +76,16 @@ Initiative (label only — initiative:<name>)
 ## Issue rules
 
 1. Every story/task/debt has `Epic:` as first non-blank body line (`Epic: #N` or
-   `Epic: org/repo#N`).
+   `Epic: driftsys/board#N` for cross-cutting work).
 2. One `epic:<name>` label plus type label per issue.
 3. When creating an issue, update the parent epic's task list.
-4. Epics live at org level (`driftsys/.github`) for cross-repo concerns or at
-   repo level for repo-specific work.
-5. Epics are created by humans. Agents create stories, tasks, and debt.
+4. **Cross-cutting epics** live in [`driftsys/board`][board]. Repo-specific
+   epics live in their own repo.
+5. Agents create cross-cutting issues in `driftsys/board` when the work spans
+   multiple repos. Repo-specific issues stay in their own repo.
+6. Epics are created by humans. Agents create stories, tasks, and debt.
+
+[board]: https://github.com/driftsys/board
 
 ## Review findings
 
