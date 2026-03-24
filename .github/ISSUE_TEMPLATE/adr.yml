@@ -1,0 +1,35 @@
+name: ADR proposal
+description: Propose an architecture decision that affects multiple projects
+labels: ["adr"]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What is the problem or decision to be made?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed decision
+      description: What do you propose and why?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Other approaches and why they were rejected.
+    validations:
+      required: false
+
+  - type: textarea
+    id: consequences
+    attributes:
+      label: Consequences
+      description: What are the positive and negative implications?
+    validations:
+      required: false

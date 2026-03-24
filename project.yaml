@@ -1,0 +1,7 @@
+"$schema": https://driftsys.github.io/schemas/project/v1.json
+name: io.driftsys.board
+version: 0.1.0
+category: manifest
+description: DriftSys cross-cutting planning — epics, ADRs, and program management
+license: MIT
+repository: https://github.com/driftsys/board
