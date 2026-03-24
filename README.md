@@ -18,11 +18,6 @@ their own copy.
 High-level initiatives are framed in [docs/initiatives/](docs/initiatives/) with
 objective, goals, and roadmap.
 
-## Epics
-
-Cross-cutting epics are tracked as GitHub issues with the `epic` label. Each
-epic references its parent initiative.
-
 ## Architecture decisions
 
 Decisions that affect multiple DriftSys projects are recorded as ADRs in
