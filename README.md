@@ -23,6 +23,15 @@ objective, goals, and roadmap.
 Decisions that affect multiple DriftSys projects are recorded as ADRs in
 [docs/records/](docs/records/) following the `adr-NNN-topic.md` format.
 
+## Contact
+
+| Channel         | Address                                                                                                                                                                                                                                           |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| General         | <contact@driftsys.org>                                                                                                                                                                                                                            |
+| Security        | <security@driftsys.org> — or use [private vulnerability reporting](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/privately-reporting-a-security-vulnerability) |
+| Code of conduct | <conduct@driftsys.org>                                                                                                                                                                                                                            |
+| GitHub          | [github.com/driftsys](https://github.com/driftsys)                                                                                                                                                                                                |
+
 ## License
 
 [MIT](LICENSE)
